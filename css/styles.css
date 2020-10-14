@@ -25,3 +25,37 @@
   width: 50%;
   color: purple;
 }
+
+@media screen and (min-width: 700px){
+  .postContainer{
+    width: 100%;
+    margin: auto;
+  }
+  .post{
+    float: left;
+    width: 33%;
+    height: 50vh;
+  }
+  .about{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .one, .two{
+    color: orange;
+  }
+  .three{
+    color: purple;
+  }
+
+}
+
+@media screen and (max-width:550px){
+  .post{
+    background-color: coral;
+    color: white;
+    border: 3px solid teal;
+  }
+}
