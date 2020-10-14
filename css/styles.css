@@ -1,16 +1,22 @@
 .post{
   font-family: sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
+  margin: 50px 0px 100px;
+  padding: 20px 10px;
+  background-color: blanchedalmond;
 }
 
 .one, .two{
   color: blue;
   font-style: italic;
+  border: 1px solid blue;
 }
 
 .three{
   color: red;
   font-weight: bold;
+  border: 3px solid green;
 }
 
 .about{
